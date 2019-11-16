@@ -38,7 +38,8 @@ export const Show = ({ show }) => (
       // fluid={show.poster.childImageSharp.fluid}
       src={show.poster.publicURL}
       width="auto"
-      height={window.innerWidth > breakpoints.mobileNum ? '400px' : 'auto'}
+      // height={window.innerWidth > breakpoints.mobileNum ? '400px' : 'auto'}
+      height="400px"
     />
   </StyledShow>
 )
