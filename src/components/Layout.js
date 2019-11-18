@@ -1,11 +1,19 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { withPrefix } from 'gatsby'
+import styled from 'styled-components'
 import Footer from './Footer'
 import Navbar from './Navbar'
+import { AppTypography } from '../utils/typography'
 // import './all.sass'
 import './reset.css'
 import useSiteMetadata from './SiteMetadata'
+
+const StyledMain = styled.main`
+  min-height: 100vh;
+  background-color: #333;
+  ${AppTypography}
+`
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -49,9 +57,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
+      <StyledMain>{children}</StyledMain>
     </div>
   )
 }

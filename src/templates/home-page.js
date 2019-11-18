@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Element } from 'react-scroll'
 import { AppTypography } from '../utils/typography'
+import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Bio from '../components/Bio'
@@ -11,15 +12,9 @@ import PastShows from '../components/PastShows'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
-const StyledApp = styled.div`
-  min-height: 100vh;
-  background-color: #333;
-  ${AppTypography}
-`
-
 function App() {
   return (
-    <StyledApp>
+    <Layout>
       <Header />
       <Hero />
       <Bio />
@@ -35,7 +30,7 @@ function App() {
         <Contact />
       </Element>
       <Footer />
-    </StyledApp>
+    </Layout>
   )
 }
 

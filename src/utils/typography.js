@@ -6,6 +6,9 @@ export const AppTypography = `
   color: #fff;
   line-height: 1.5em;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.35);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 `
 
 export const H2 = styled.h2`

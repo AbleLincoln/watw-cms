@@ -1,5 +1,12 @@
 Todo:
   ☐ favicons
   ☐ font is weird
+    ☐ let's choose a font
   ☐ loading of images
   ☐ use ImageSharp for show images
+  ☐ automatic builds via Zapier and webhooks (https://flaviocopes.com/netlify-auto-deploy/)
+  ☐ reset.css (I think I need to use the Layout in my actual app)
+  ☐ convert 'Show' collection to different format (probably yaml)
+  ☐ cleanup
+    ☐  template code
+  ☐ favicon
