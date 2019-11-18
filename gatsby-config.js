@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: '🐺W&W 🐺',
+    title: 'Wyman & the Wolves 🐺',
     description:
       'Wyman & the Wolves are a cosmic country rock band from Los Angeles.',
   },
